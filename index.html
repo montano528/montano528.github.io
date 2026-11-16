@@ -8,6 +8,16 @@
                 border-radius: 999px;
                 text-decoration: none;
             }
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 12px;
+            }
+            .card {
+                padding: 14px;
+                background: #f4f4f4;
+                border-radius: 8px;
+            }
         </style>
         <nav>
             <a class="pill" href="#about">About</a>
@@ -22,6 +32,12 @@
         width="50%">
         <h1 id="about">Dexter Montano</h1>
         <p>Hello, World! This is my page for my CS110 class at AVC. I love bugs (the animals) and I hope to learn cybersecurity and troubleshooting, along with coding for hobbywork.</p>
+    
+        <section class="grid">
+            <div class="card"><h3>Education</h3><p>AS of CS</p></div>
+            <div class="card"><h3>Skills</h3><p>HTML, Python</p></div>
+            <div class="card"><h3>Interests</h3><p>Coding, Art, Animals, Games</p></div>
+        </section>
         <a href="https://www.avc.edu/">Visit AVC</a>
         <h2 id="links">Find Me Online</h2>
         <ul>
